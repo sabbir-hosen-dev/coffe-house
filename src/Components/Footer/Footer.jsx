@@ -2,7 +2,8 @@
 
 function Footer() {
   return (
-    <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
+    <div className="  bg-base-200">
+        <footer className="footer container m-auto footer-center text-base-content rounded p-10">
       <nav>
         <div className="grid grid-flow-col gap-4">
           <a>
@@ -47,6 +48,7 @@ function Footer() {
         </p>
       </aside>
     </footer>
+    </div>
   );
 }
 
